@@ -1,0 +1,262 @@
+body{
+  
+  font-family:Candara;
+  font-weight: lighter;
+  font-size: medium;
+}
+#videos{
+  display: none;
+}
+h3{
+  font-weight: 500;
+}
+p{
+  font-size: 15pt;
+}
+button{
+  width: 50px;
+  height: 25px;
+}
+img{
+  max-width: 750px;
+  max-height: 500px;
+
+}
+
+#top{
+  width: 250px;
+  height: 50px;
+  font-size: 11pt;
+  text-align: center;
+}
+
+input[type=text]{
+  width: 250px;
+  font-family: Candara;
+  font-weight: normal;
+  color: rgb(161, 161, 161);
+  border-radius: 10px;
+  border-color: rgb(161, 161, 161);
+}
+
+input[type="file"] {
+  display: none;
+}
+
+#label1{
+  display: none;
+}
+
+#labell1{
+  display: none;
+}
+
+#label {
+  line-height: 250px;
+  font-size:30pt;
+  width: 500px;
+  height:250px;
+  background-color: rgb(179, 179, 179);
+  color: rgb(122, 122, 122);
+  text-align: center;
+  display: block;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+#labell{
+  width: 100px;
+  height: 100px;
+  line-height: 50px;
+  font-weight: lighter;
+  font-size: 15pt;
+  font-family: "Candara";
+  background-color:rgb(179, 179, 179);
+  color: rgb(126, 126, 126);
+  text-align: center;
+  display: block;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+#ppp{
+    width: 250px;
+    height: 100px;
+  font-family: Candara;
+  font-weight: normal;
+  color: rgb(161, 161, 161);
+  border-radius: 10px;
+  font-size: 11pt;
+  text-align: center;
+}
+
+#bgcolor{
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+#btnp{
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+#py{
+  font-size: 14pt;
+}
+
+input[type="email"]{
+  display: none;
+}
+
+#area{
+  font-size: 13pt;
+}
+
+#font{
+  display:none;
+}
+
+
+
+select{
+  background-color: rgba(255, 238, 212, 0.911);
+  font-size: medium;
+  font-family: candara;
+  font-weight: lighter;
+  color: rgb(161, 161, 161);
+  text-align: center;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+
+#padrao{
+  font-weight: lighter;
+  font-family: "candara";
+}
+
+#sans{
+  font-weight: normal;
+  font-family: sans-serif;
+  color: black;
+
+}
+
+#candara{
+  font-weight: normal;
+  font-family: "candara";
+  color: black;
+
+}
+
+#calibri{
+  font-weight: normal;
+  font-family: "calibri";
+  color: black;
+
+}
+
+#century{
+  font-weight: lighter;
+  font-family: "century gothic";
+  color: black;
+}
+
+#freestyle{
+  font-weight: lighter;
+  font-family: "freestyle script regular";
+  color: black;
+}
+
+#arial{
+  font-weight: lighter;
+  font-family: "Arial";
+  color: black;
+}
+
+#minecraft{
+  font-weight: lighter;
+  font-family: "minecraft medium";
+  color: black;
+}
+
+#courier{
+  font-weight: lighter;
+  font-family: "Courier";
+  color: black;
+}
+
+#vladimir{
+  font-weight: lighter;
+  font-family: "Vladimir Script Regular";
+  color: black;
+}
+
+#japanese{
+  font-weight: lighter;
+  font-family: "Japanese Regular";
+  color: black;
+}
+
+#optima{
+  font-weight: lighter;
+  font-family: "Optima";
+  color: black;
+}
+
+#cutie{
+  font-weight: lighter;
+  font-family: "Cutie Shark Regular";
+  color: black;
+}
+
+#garamond{
+  font-weight: lighter;
+  font-family: "Garamond";
+  color: black;
+}
+
+#perpetua{
+  font-weight: lighter;
+  font-family: "Perpetua";
+  color: black;
+}
+
+#old{
+  font-weight: lighter;
+  font-family: "Old English Text MT Regular";
+  color: black;
+}
+
+#leaves{
+  font-weight: lighter;
+  font-family: "Leaves And Ground Regular";
+  color: black;
+}
+
+#brusher{
+  font-weight: lighter;
+  font-family: "Brusher Regular";
+  color: black;
+}
+
+#copperplate{
+  font-weight: lighter;
+  font-family: "Copperplate";
+  color: black;
+}
+
+#lucidasans{
+  font-weight: lighter;
+  font-family: "Lucida sans";
+  color: black;
+}
+
+
+
+
