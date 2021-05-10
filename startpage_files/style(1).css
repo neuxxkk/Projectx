@@ -1,12 +1,15 @@
 /* Base */
+
 html {
   overflow-x: hidden; }
 
 body {
   line-height: 1.7;
-  color: #364d59 !important;
+  color: #364d59;
   font-weight: 300;
-  font-size: 1rem; }
+  font-size: 1rem;
+  
+}
 
 ::selection {
   background: #000;
@@ -102,8 +105,6 @@ h1, h2, h3, h4, h5,
     .site-navbar .site-navigation .site-menu > li {
       display: inline-block; }
       .site-navbar .site-navigation .site-menu > li > a {
-        margin-left: 15px;
-        margin-right: 15px;
         padding: 20px 0px;
         color: #fff !important;
         display: inline-block;

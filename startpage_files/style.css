@@ -4919,7 +4919,6 @@
 }
 
 img{
-  width: 65px;
   margin-top: -25px;
   margin-right: -7px;
 }
@@ -4928,4 +4927,9 @@ img{
 #menuzin:hover{width: 67px;}
 
 #aga{position:relative}
-#aga:hover{font-style: italic;}
+#aga:hover{font-style: italic; font-size: 38pt;}
+
+.nav-link{
+  margin-left: 30px;
+  margin-right: 30px;
+}
