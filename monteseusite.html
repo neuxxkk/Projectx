@@ -10,36 +10,38 @@
 
 
     <body id="bodi">
+
+        <div class="campo">
     
-        <input type="text" value="Este é o tópico do seu site" id="top" onblur="input0blur()" onfocus="input0focus()"><br><br><!--[0]-->
+        <input class="campo" type="text" value="Este é o tópico do seu site" onblur="input0blur()" onfocus="input0focus()"><br><br><!--[0]-->
         <h1></h1><br><br>
 
-        <input type="text" value="Descrição da sua imagem/vídeo" id="des"  onblur="input1blur()" onfocus="input1focus()"><!--[1]-->
+        <input class="campo" type="text" value="Descrição do seu arquivo" onblur="input1blur()" onfocus="input1focus()"><!--[1]-->
         <p></p>
 
-        <label for="archive" id="label">Escolha uma imagem/vídeo</label>
+        <label onclick="labelclick()" for="archive" id="label">Escolha um arquivo</label>
         <input type="file" id="archive" accept="image/*,.mp4"><br><br><!--[2]-->
-        <input type="email" name="file" ><!--[3]-->
-        <input type="email" name="file" ><!--[4]-->
-
-        <label for="video"></label>
+                                                                                                                                                                                                                                                                                                                                                                                                <input style="display: none;" type="email" name="file" ><!--[3]-->
+                                                                                                                                                                                                                                                                                                                                                                                                <input style="display: none;" type="email" name="file" ><!--[4]-->
+        
+                                                                                                                                                                                                                                                                                                                                                                                                <label for="video"></label>
         <img src="" height="auto" id="img" >
         <video src="" width="auto" height="280" preload="auto"  controls id="videos"></video><br><br>
 
-        <input type="text" value="Escreva o que você quiser" id="ppp"  onblur="input5blur()" onfocus="input5focus()"><br><!--[5]-->
+        <input class="campo" type="text" value="Escreva o que você quiser" onblur="input5blur()" onfocus="input5focus()"><br><!--[5]-->
         <p></p><br>
 
 
         <h2>Nas casas abaixo você estilizará o seu site<h3>(caso não queira mudar algo, deixe em branco)</h3></h2><br><br>
 
 
-            <input type="text" name="title" value="Título do seu site" id="title"  onblur="input6blur()" onfocus="input6focus()"><br><br><br><!--[6]-->
+            <input class="campo" type="text" name="title" value="Título do seu site"   onblur="input6blur()" onfocus="input6focus()"><br><br><br><!--[6]-->
 
 
             <h3>Escolha a cor de fundo do seu site abaixo</h3>
-                <input type="color" name="bgcolor" id="bgcolor" ><br><br><br><br><!--[7]-->
+                <input class="campo" type="color" name="bgcolor"  ><br><br><br><br><!--[7]-->
         
-            <select name="listbox" id="listbox">
+            <select id="listbox" class="campo">
                 <option value="Padrao" id="padrao">Ecolha uma Fonte</option>
                 <option value="Calibri" id="calibri">Calibri</option>
                 <option value="Candara" id="candara">Candara</option>
@@ -52,18 +54,18 @@
                 <option value="century gothic" id="century">Century Gothic</option>
             </select><br><br>
 
-            <input type="text" name="font" value="Qual será a fonte da letra do seu site?" id="font"  onblur="input8blur()" onfocus="input8focus()"><!--[8]-->
-            <br><br>
+                                                                                                                                                                                                                                                            <input type="text" name="font" value="Qual será a fonte da letra do seu site?" id="font"  onblur="input8blur()" onfocus="input8focus()"><!--[8]-->
+                                                                                                                                                                                                                                                            <br><br>
 
 
-            <label for="iconn" id="labell">Escolha um ícone</label>
+            <label for="iconn" id="label" onclick="labelclick1()">Escolha um ícone</label>
                 <input type="file" name="icon" id="iconn" accept="image/*"><br><br><!--[9]-->
 
             <h3>Escolha a posição do seu site</h3>
                 <div id="area">
-                    <input type="radio" name="band-rock" value="centro"/>Centro<br>
-                    <input type="radio" name="band-rock" value="esquerda"/>Esquerda<br>
-                    <input type="radio" name="band-rock" value="direita"/>Direita
+                    <input class="campo" type="radio" name="band-rock" value="centro"/>Centro<br>
+                    <input class="campo " type="radio" name="band-rock" value="esquerda"/>Esquerda<br>
+                    <input class="campo " type="radio" name="band-rock" value="direita"/>Direita
                 </div><br>
         
 
@@ -71,9 +73,11 @@
 
     <button onclick="clicou()" class="botao" id="btnp">Criar seu site</button><br> 
     
-    
+            </div>    
+
     <script src="script.js"></script>
 </body>
+
 
 
 </html>

@@ -2,6 +2,22 @@
 
 //aditional functions configs
 
+function labelclick(){
+  setTimeout(show, 1500)
+  function show(){
+  var label = document.getElementById("label").innerHTML="Arquivo Carregado!"
+ 
+}}
+
+function labelclick1(){
+  setTimeout(show1, 1500)
+  function show1(){
+  var label1 = document.getElementById("label")[1].innerHTML="Ícone Carregado!"
+ 
+}}
+
+
+
 function input0focus(){
   var input0value=document.getElementsByTagName("input")[0].value=""
 }
@@ -292,6 +308,7 @@ if (radios[i].value=="direita") {
         console.log(options)
         var bodi=document.getElementById("bodi").style.fontFamily=options
       }
+
 
       if (options=="Sans-Serif"){
         console.log(options)
