@@ -292,11 +292,6 @@ if (radios[i].value=="direita") {
         console.log(options)
         var bodi=document.getElementById("bodi").style.fontFamily=options
       }
-    
-      if (options=="Brusher Regular"){
-        console.log(options)
-        var bodi=document.getElementById("bodi").style.fontFamily=options
-      }
 
       if (options=="Sans-Serif"){
         console.log(options)
@@ -308,27 +303,7 @@ if (radios[i].value=="direita") {
         var bodi=document.getElementById("bodi").style.fontFamily=options
       }
 
-      if (options=="Lucida sans"){
-        console.log(options)
-        var bodi=document.getElementById("bodi").style.fontFamily=options
-      }
-
-      if (options=="Leaves And Ground Regular"){
-        console.log(options)
-        var bodi=document.getElementById("bodi").style.fontFamily=options
-      }
-
       if (options=="Courier"){
-        console.log(options)
-        var bodi=document.getElementById("bodi").style.fontFamily=options
-      }
-
-      if (options=="Cutie Shark Regular"){
-        console.log(options)
-        var bodi=document.getElementById("bodi").style.fontFamily=options
-      }
-
-      if (options=="Japanese Regular"){
         console.log(options)
         var bodi=document.getElementById("bodi").style.fontFamily=options
       }
@@ -338,32 +313,7 @@ if (radios[i].value=="direita") {
         var bodi=document.getElementById("bodi").style.fontFamily=options
       }
 
-      if (options=="Old English Text MT Regular"){
-        console.log(options)
-        var bodi=document.getElementById("bodi").style.fontFamily=options
-      }
-
-      if (options=="Garamond"){
-        console.log(options)
-        var bodi=document.getElementById("bodi").style.fontFamily=options
-      }
-
-      if (options=="Perpetua"){
-        console.log(options)
-        var bodi=document.getElementById("bodi").style.fontFamily=options
-      }
-
-      if (options=="Vladimir Script Regular"){
-        console.log(options)
-        var bodi=document.getElementById("bodi").style.fontFamily=options
-      }
-
-      if (options=="minecraft medium"){
-        console.log(options)
-        var bodi=document.getElementById("bodi").style.fontFamily=options
-      }
-
-      if (options=="freestyle script regular"){
+      if (options=="raleway"){
         console.log(options)
         var bodi=document.getElementById("bodi").style.fontFamily=options
       }

@@ -1,7 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Candara);
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Century-Gothic);
+
 
 body{
-  
+  text-align: center;
   font-family:Candara;
   font-weight: lighter;
   font-size: medium;
@@ -16,13 +19,8 @@ p{
   font-size: 15pt;
 }
 button{
-  width: 50px;
-  height: 25px;
-}
-img{
-  max-width: 750px;
-  max-height: 500px;
-
+  width: auto;
+  height: auto;
 }
 
 #top{
@@ -58,8 +56,8 @@ input[type="file"] {
   font-size:30pt;
   width: 500px;
   height:250px;
-  background-color: rgb(179, 179, 179);
-  color: rgb(122, 122, 122);
+  background-color: rgb(206, 206, 206);
+  color: rgb(196, 196, 196);
   text-align: center;
   display: block;
   margin-top: 10px;
@@ -163,21 +161,10 @@ select{
   color: black;
 }
 
-#freestyle{
-  font-weight: lighter;
-  font-family: "freestyle script regular";
-  color: black;
-}
 
 #arial{
   font-weight: lighter;
   font-family: "Arial";
-  color: black;
-}
-
-#minecraft{
-  font-weight: lighter;
-  font-family: "minecraft medium";
   color: black;
 }
 
@@ -187,17 +174,6 @@ select{
   color: black;
 }
 
-#vladimir{
-  font-weight: lighter;
-  font-family: "Vladimir Script Regular";
-  color: black;
-}
-
-#japanese{
-  font-weight: lighter;
-  font-family: "Japanese Regular";
-  color: black;
-}
 
 #optima{
   font-weight: lighter;
@@ -205,93 +181,95 @@ select{
   color: black;
 }
 
-#cutie{
+
+#raleway{
   font-weight: lighter;
-  font-family: "Cutie Shark Regular";
+  font-family: raleway;
   color: black;
 }
 
-#garamond{
-  font-weight: lighter;
-  font-family: "Garamond";
-  color: black;
+
+fieldset {
+  border: 0;
 }
 
-#perpetua{
-  font-weight: lighter;
-  font-family: "Perpetua";
-  color: black;
+body, input, select, textarea, button {
+  font-family: sans-serif;
+  font-size: 1em;
 }
 
-#old{
-  font-weight: lighter;
-  font-family: "Old English Text MT Regular";
-  color: black;
+.grupo:before, .grupo:after {
+  content: " ";
+  display: table;
 }
 
-#leaves{
-  font-weight: lighter;
-  font-family: "Leaves And Ground Regular";
-  color: black;
+.grupo:after {
+  clear: both;
 }
 
-#brusher{
-  font-weight: lighter;
-  font-family: "Brusher Regular";
-  color: black;
+.campo {
+  margin-bottom: 1em;
 }
 
-#copperplate{
-  font-weight: lighter;
-  font-family: "Copperplate";
-  color: black;
+.campo label {
+  margin-bottom: 0.2em;
+  color: #666;
+  display: block;
 }
 
-#lucidasans{
-  font-weight: lighter;
-  font-family: "Lucida sans";
-  color: black;
+fieldset.grupo .campo {
+  float:  left;
+  margin-right: 1em;
+}
+
+.campo input[type="text"],
+.campo input[type="email"],
+.campo input[type="url"],
+.campo input[type="tel"],
+.campo select,
+.campo textarea {
+  padding: 0.2em;
+  border: 1px solid #CCC;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+  display: block;
+}
+
+.campo select option {
+  padding-right: 1em;
+}
+
+.campo input:focus, .campo select:focus, .campo textarea:focus {
+  background: #FFC;
+}
+
+.campo label.checkbox {
+  color: #000;
+  display: inline-block;
+  margin-right: 1em;
 }
 
 .botao {
-padding: 4px 11px;
-
-border: 1px solid #ffcc00;
--moz-border-radius: 8px;
--webkit-border-radius: 8px;
-border-radius: 8px;
-
-background-color: #ffcc00 !important;
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffcc00), color-stop(100%,#ff6600)) !important;
-background: -webkit-linear-gradient(top, #ffcc00, #ff6600) !important;
-background: -moz-linear-gradient(top, #ffcc00, #ff6600) !important;
-background: -ms-linear-gradient(top, #ffcc00, #ff6600) !important;
-background: -o-linear-gradient(top, #ffcc00, #ff6600) !important;
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffcc00', endColorstr='#ff6600',GradientType=0 );
-background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmY2MwMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZjY2MDAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
-
-font-family:"Segoe UI";
-font-weight: bold;
-color: #fff;
-text-shadow: 0 1px 0 #666;
-
-box-shadow: inset 0 1px 1px #fff, 0 2px 3px #666;
-cursor:pointer;
-position: relative;
+  font-size: 15pt;
+  width: auto;
+  height: auto;
+  background: #F90;
+  border: 0;
+  margin-bottom: 1em;
+  color: #FFF;
+  padding: 0.2em 0.6em;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
 }
 
 .botao:hover {
-box-shadow: inset 0 2px 5px #fff, 0 2px 3px #666;
-background: -webkit-gradient(linear, left top, left bottom, from(#ffcc00), to(#ff6600)) !important;
+  background: #FB0;
+  box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+  text-shadow: none;
 }
 
-.botao:active {
-box-shadow: inset 0 2px 5px #fff, 0 1px 3px #666 !important;
-top:2px
+.botao, select, label.checkbox {
+  cursor: pointer;
 }
-.botao a, .botao a:active, .botao a:hover, .botao a:visited { text-decoration:none; color: #fff; text-shadow: 0 1px 0 #666; }
-
-
 
 
 
