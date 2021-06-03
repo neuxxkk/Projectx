@@ -11,37 +11,38 @@
 
     <body id="bodi">
 
-        <div class="campo">
     
-        <input class="campo" type="text" value="Este é o tópico do seu site" onblur="input0blur()" onfocus="input0focus()"><br><br><!--[0]-->
+        <input id="inptxt" type="text" value="Este é o tópico do seu site" onblur="input0blur()" onfocus="input0focus()"><br><br><!--[0]-->
         <h1></h1><br><br>
 
-        <input class="campo" type="text" value="Descrição do seu arquivo" onblur="input1blur()" onfocus="input1focus()"><!--[1]-->
+        <input id="inptxt1" type="text" value="Descrição do seu arquivo" onblur="input1blur()" onfocus="input1focus()"><!--[1]-->
         <p></p>
 
-        <label onclick="labelclick()" for="archive" id="label">Escolha um arquivo</label>
-        <input type="file" id="archive" accept="image/*,.mp4"><br><br><!--[2]-->
+        <div id="divlabel">
+            <label class="labelcss" onclick="labelclick()" for="archive" id="label">Escolha um arquivo</label>
+            <input type="file" id="archive" accept="image/*,.mp4"><br><br><!--[2]-->
+        </div>
                                                                                                                                                                                                                                                                                                                                                                                                 <input style="display: none;" type="email" name="file" ><!--[3]-->
                                                                                                                                                                                                                                                                                                                                                                                                 <input style="display: none;" type="email" name="file" ><!--[4]-->
         
-                                                                                                                                                                                                                                                                                                                                                                                                <label for="video"></label>
+        <label for="video" style="display: none;"></label>
         <img src="" height="auto" id="img" >
         <video src="" width="auto" height="280" preload="auto"  controls id="videos"></video><br><br>
 
-        <input class="campo" type="text" value="Escreva o que você quiser" onblur="input5blur()" onfocus="input5focus()"><br><!--[5]-->
+        <input id="inptxt2" type="text" value="Escreva o que você quiser" onblur="input5blur()" onfocus="input5focus()"><br><!--[5]-->
         <p></p><br>
 
 
         <h2>Nas casas abaixo você estilizará o seu site<h3>(caso não queira mudar algo, deixe em branco)</h3></h2><br><br>
 
 
-            <input class="campo" type="text" name="title" value="Título do seu site"   onblur="input6blur()" onfocus="input6focus()"><br><br><br><!--[6]-->
+            <input id="inptxt3" type="text" name="title" value="Título do seu site"   onblur="input6blur()" onfocus="input6focus()"><br><br><br><!--[6]-->
 
 
             <h3>Escolha a cor de fundo do seu site abaixo</h3>
-                <input class="campo" type="color" name="bgcolor"  ><br><br><br><br><!--[7]-->
+                <input type="color" name="bgcolor"  ><br><br><br><br><!--[7]-->
         
-            <select id="listbox" class="campo">
+            <select id="listbox" class="select">
                 <option value="Padrao" id="padrao">Ecolha uma Fonte</option>
                 <option value="Calibri" id="calibri">Calibri</option>
                 <option value="Candara" id="candara">Candara</option>
@@ -73,7 +74,6 @@
 
     <button onclick="clicou()" class="botao" id="btnp">Criar seu site</button><br> 
     
-            </div>    
 
     <script src="script.js"></script>
 </body>

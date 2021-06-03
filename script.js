@@ -343,15 +343,15 @@ if (radios[i].value=="direita") {
 
       //hidden configs
           //input0
-          document.getElementsByTagName("input")[0].hidden=true
+          document.getElementById("inptxt").style.display="none"
           //input1            
-          document.getElementsByTagName("input")[1].hidden=true
+          document.getElementById("inptxt1").style.display="none"
           //input4
           document.getElementsByTagName("input")[4].hidden=true
           //input5
-          document.getElementsByTagName("input")[5].hidden=true
+          document.getElementById("inptxt2").style.display="none"
           //input6
-          document.getElementsByTagName("input")[6].hidden=true
+          document.getElementById("inptxt3").style.display="none"
           //input7
           document.getElementsByTagName("input")[7].hidden=true
           //input8
@@ -377,8 +377,9 @@ if (radios[i].value=="direita") {
           document.getElementsByTagName("button")[0].hidden=true
           //div1
           document.getElementsByTagName("div")[1].hidden=true
-           //select0
-           document.getElementsByTagName("select")[0].hidden=true
+          //select0
+          document.getElementById("listbox").style.display="none"
+          
           
           
 
