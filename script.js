@@ -375,8 +375,8 @@ if (radios[i].value=="direita") {
           document.getElementsByTagName("h3")[2].hidden=true
           //button0
           document.getElementsByTagName("button")[0].hidden=true
-          //div0
-          document.getElementsByTagName("div")[0].hidden=true
+          //div1
+          document.getElementsByTagName("div")[1].hidden=true
            //select0
            document.getElementsByTagName("select")[0].hidden=true
           
