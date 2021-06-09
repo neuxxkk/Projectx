@@ -12,7 +12,7 @@ function labelclick(){
 function labelclick1(){
   setTimeout(show1, 1500)
   function show1(){
-  var label1 = document.getElementById("label")[1].innerHTML="Ícone Carregado!"
+  var label1 = document.getElementById("label-icon").innerHTML="Ícone Carregado!"
  
 }}
 
