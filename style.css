@@ -150,7 +150,8 @@ body, input, select, textarea, button {
   width: 500px;
   height: 250px;
   margin-bottom: 0.2em;
-  background-image: url(https://raw.githubusercontent.com/neuxxkk/Images-links/b2b3e0e7680efdb8b4b06bef2c9790b732c7cc3b/images/pinguim-tudo-o-que-voce-precisa-saber-sobre-esse-animal-7.png);
+  background-image: url("images/bg-label.png");
+  border-radius: 8px;
   color: rgb(0, 0, 0);
   display: inline-block;
   line-height: 250px;

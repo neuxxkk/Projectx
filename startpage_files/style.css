@@ -4931,8 +4931,11 @@ img{
 #menuzin{position:relative}
 #menuzin:hover{width: 67px;}
 
-#aga{position:relative}
-#aga:hover{font-style: italic; font-size: 38pt;}
+#h1-title:hover{  
+  position:relative;
+  margin-top:-4%;
+  transition: all .2s ease-in-out;
+}
 
 .nav-link{
   margin-left: 30px;
@@ -4942,3 +4945,48 @@ img{
 #project-logo{
   font-family: raleway;
 }
+
+#vk:hover{
+  position:relative;
+  top:0;
+  padding:+10%;
+  transition: all .1s ease-in-out;
+}
+
+#facebook:hover{
+  position:relative;
+  top:0;
+  padding:+10%;
+  transition: all .1s ease-in-out;
+}
+
+#linkedin:hover{
+  position:relative;
+  top:0;
+  padding:+10%;
+  transition: all .1s ease-in-out;
+}
+
+#instagram:hover{
+  position:relative;
+  top:0;
+  padding:+10%;
+  transition: all .1s ease-in-out;
+}
+
+#twitter:hover{
+  position:relative;
+  top:0;
+  padding:+10%;
+  transition: all .1s ease-in-out;
+}
+
+#pinterest:hover{
+  position:relative;
+  top:0;
+  padding:+10%;
+  transition: all .1s ease-in-out;
+}
+
+
+
