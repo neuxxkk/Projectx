@@ -109,7 +109,7 @@ const label=document.getElementsByTagName('label')[0].innerHTML="Vídeo arquivad
 
 }else{
 if (file.type!="video/mp4") {
-  if (file.type!="image/jpeg") {      
+  if (file.type!="image/*") {      
   window.alert("Arquivo não suportado!")
   }
 }
@@ -139,7 +139,7 @@ if (file.type!="video/mp4") {
     
   }else{
     if (file.type!="video/mp4") {
-      if (file.type!="image/jpeg") {      
+      if (file.type!="image/*") {      
       window.alert("Arquivo não suportado!")
       }
     }
