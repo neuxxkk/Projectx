@@ -1,19 +1,20 @@
 
-
 //aditional functions configs
 
 function labelclick(){
   setTimeout(show, 1500)
   function show(){
   var label = document.getElementById("label").innerHTML="Arquivo Carregado!"
- 
+  
 }}
 
 function labelclick1(){
   setTimeout(show1, 1500)
   function show1(){
   var label1 = document.getElementById("label-icon").innerHTML="Ícone Carregado!"
- 
+  const file=document.getElementById('archive').files[0]
+  console.log(file)
+  
 }}
 
 
@@ -79,74 +80,59 @@ function clicou(){
 
 
 //video/img config
-const file=document.getElementsByTagName('input')[2].files[0]
+const file=document.getElementById('archive').files[0]
 const reader=new FileReader();
 
   //video
-  if (file!=undefined) {
+if (file!=undefined) {
   var nofile=false
-if(file.type=="video/mp4"){
+  if(file.type=="video/mp4"){
 
-console.log("video")
+    console.log("video")
 
-document.getElementById("videos").style.display="block"; 
-var preview=document.getElementById('videos');
-const file=document.getElementsByTagName('input')[2].files[0];
-const reader=new FileReader();
+    document.getElementById("videos").style.display="block"; 
+    var preview=document.getElementById('videos');
+    const file=document.getElementsByTagName('input')[2].files[0];
+    const reader=new FileReader();
 
-reader.addEventListener("load", function () {
-// codigo que converte a imagem
-preview.src=reader.result;
-}, false);
+    reader.addEventListener("load", function () {
+    // codigo que converte a imagem
+    preview.src=reader.result;
+  }, false);
 
-if (file) {
-reader.readAsDataURL(file);
-
-console.log(preview)
-}
-const label=document.getElementsByTagName('label')[0].innerHTML="Vídeo arquivado"
-
-
-}else{
-if (file.type!="video/mp4") {
-  if (file.type!="image/*") {      
-  window.alert("Arquivo não suportado!")
+  if (file) {
+    reader.readAsDataURL(file);
+    console.log(preview)
   }
-}
-}   
+  const label=document.getElementsByTagName('label')[0].innerHTML="Vídeo arquivado"
 
-      //img
-      if(file.type=="image/jpeg"){
-    
-        console.log("imagem")
-    
+  //img
+  }else if(file.type=="image/png" || file.type == "image/jpeg"){
+      
+    console.log("imagem")
+      
     var preview=document.getElementById('img')
     const file=document.getElementsByTagName('input')[2].files[0]
     const reader=new FileReader();
-    
+      
     reader.addEventListener("load", function () {
     // codigo que converte a imagem
     preview.src=reader.result;
     }, false);
-    
+      
     if (file) {
-    reader.readAsDataURL(file);
-    
-    console.log(preview)
+      reader.readAsDataURL(file); 
+      console.log(preview)
     }
+
     const label=document.getElementsByTagName('label')[0].innerHTML="Imagem arquivada"
 
-    
   }else{
-    if (file.type!="video/mp4") {
-      if (file.type!="image/*") {      
-      window.alert("Arquivo não suportado!")
-      }
-    }
+    window.alert("Arquivo não suportado!")  
   }
 
-  const label=document.getElementsByTagName('label')[0].style.display="none"
-  preview.style.borderRadius= "10px";
+    const label=document.getElementsByTagName('label')[0].style.display="none"
+    preview.style.borderRadius= "10px";
 
 
 }else{
