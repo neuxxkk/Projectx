@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta author="Vítor Neuenschwander">
-        <title id="title">Tíulo</title>
+        <title id="title">Título</title>
         <link rel="stylesheet" href="style.css">
         <link id="favicon" rel="shortcut icon" type="image/png" href="images/icon.png" >
     </head>
@@ -13,11 +13,11 @@
 
     
         <input id="inptxt" type="text" value="Este é o tópico do seu site" onblur="input0blur()" onfocus="input0focus()"><br><br><!--[0]-->
-        <h1></h1><br><br>
+        <h1 class="hs"></h1><br><br>
 
-        <input id="inptxt1" type="text" value="Descrição do seu arquivo" onblur="input1blur()" onfocus="input1focus()"><!--[1]-->
-        <p></p>
-
+        <input id="inptxt1" type="text" value="Descrição do seu arquivo" wrap="hard" onblur="input1blur()" onfocus="input1focus()"><!--[1]-->
+            <p></p>        
+        
         <div id="divlabel">
             <label class="labelcss" onclick="labelclick()" for="archive" id="label">Escolha um arquivo</label>
             <input type="file" id="archive" accept="image/*"><br><br><!--[2]-->
@@ -26,20 +26,26 @@
                                                                                                                                                                                                                                                                                                                                                                                                 <input style="display: none;" type="email" name="file" ><!--[4]-->
         
         <label for="video" style="display: none;"></label>
-        <img src="" height="auto" id="img" >
+        <img src="" id="img" >
         <video src="" width="auto" height="280" preload="auto"  controls id="videos"></video><br><br>
 
-        <input id="inptxt2" type="text" value="Escreva o que você quiser" onblur="input5blur()" onfocus="input5focus()"><br><!--[5]-->
-        <p></p><br>
+        <input id="inptxt2" autofocus type="text" value="Escreva o que você quiser" onblur="input5blur()" onfocus="input5focus()"><br><!--[5]-->
+        <h3 class="hs">Parágrafo livre (escreva o que você quiser)</h3>
+        <textarea value="Escreva o que você quiser" id="textarea" wrap="hard" cols="30"  rows="10" onblur="input5blur()" onfocus="input5focus()"></textarea>
+       
+            <div id="divtxt">
+                <p id="p-inptxt2"></p>
+            </div>
+        
 
 
-        <h2>Nas casas abaixo você estilizará o seu site<h3>(caso não queira mudar algo, deixe em branco)</h3></h2><br><br>
+        <h2 class="hs">Nas casas abaixo você estilizará o seu site<h3 class="hs">(caso não queira mudar algo, deixe em branco)</h3></h2><br><br>
 
 
             <input id="inptxt3" type="text" name="title" value="Título do seu site"   onblur="input6blur()" onfocus="input6focus()"><br><br><br><!--[6]-->
 
 
-            <h3>Escolha a cor de fundo do seu site abaixo</h3>
+            <h3 class="hs">Escolha a cor de fundo do seu site abaixo</h3>
                 <input type="color" name="bgcolor"  ><br><br><br><br><!--[7]-->
         
             <select id="listbox" class="select">
@@ -62,7 +68,7 @@
             <label for="iconn" id="label-icon" onclick="labelclick1()">Escolha um ícone</label>
                 <input type="file" name="icon" id="iconn" accept="image/*"><br><br><!--[9]-->
 
-            <h3>Escolha a posição do seu site</h3>
+            <h3 class="hs">Escolha a posição do seu site</h3>
                 <div id="area">
                     <input class="campo" type="radio" name="band-rock" value="centro"/>Centro<br>
                     <input class="campo " type="radio" name="band-rock" value="esquerda"/>Esquerda<br>

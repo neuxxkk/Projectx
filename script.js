@@ -202,8 +202,8 @@ console.log(titletxt)
 
 
 //paragrafo livre config
-let ptxt=document.getElementsByTagName('input')[5].value
-const pcamp=document.getElementsByTagName('p')[1].innerHTML=ptxt    //OBS: SE VC NÃO RESPONDER UM DOS INPUTS NO SITE O POSTERIORES DRÃO ERRO
+let ptxt=document.getElementById('textarea').value
+const pcamp=document.getElementById('divtxt').innerHTML=ptxt 
 
 
 
@@ -359,12 +359,15 @@ if (radios[i].value=="direita") {
           document.getElementsByTagName("h3")[1].hidden=true
           //h32
           document.getElementsByTagName("h3")[2].hidden=true
+          document.getElementsByTagName("h3")[3].hidden=true
           //button0
           document.getElementsByTagName("button")[0].hidden=true
-          //div1
-          document.getElementsByTagName("div")[1].hidden=true
+          //div2
+          document.getElementsByTagName("div")[2].hidden=true
           //select0
           document.getElementById("listbox").style.display="none"
+
+          document.getElementById("textarea").style.display="none"
           
           
           

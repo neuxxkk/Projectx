@@ -17,7 +17,7 @@ h3{
   font-weight: 500;
 }
 p{
-  font-size: 15pt;
+  font-size: 16pt;
 }
 button{
   width: auto;
@@ -224,5 +224,46 @@ input:focus, select:focus, textarea:focus {
   cursor: pointer;
 }
 
+#inptxt2{
+display: none;
+}
 
+#p-inptxt2{
+  text-align: center;
+  width: 250px;
+  height: 250px;
+  word-break: break-all;
+}
 
+#divtxt{
+  text-align: center;
+  word-break: break-all;
+  margin-left: 330px;
+  margin-right: 330px;
+  font-size: 16pt;
+}
+
+.hss{
+  display: none;
+}
+
+#img{
+  height: auto;
+  width: auto;
+}
+
+h1{
+  font-size: 30pt;
+}
+
+input[type="color"]{
+  width: 100px;
+  height: 50px;
+  display: relative;
+  margin: 0;
+}
+
+textarea{
+  width: 1000px;
+  height: 300px;
+}
