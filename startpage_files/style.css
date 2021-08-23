@@ -4931,19 +4931,32 @@ img{
 #menuzin{position:relative}
 #menuzin:hover{width: 67px;}
 
-#h1-title:hover{  
+
+
+#h1-title:hover{   
   position:relative;
   margin-top:-4%;
   transition: all .2s ease-in-out;
 }
 
 .nav-link{
-  margin-left: 30px;
-  margin-right: 30px;
+  margin-left: 65px;
+  margin-right: 65px;
 }
 
 #project-logo{
+  color: rgb(51, 51, 51);
   font-family: raleway;
+}
+
+#project-logo{
+  position: relative;
+  font-size: 2.4rem;
+}
+
+#project-logo1:hover{
+  position: relative;
+  font-size: 3.3rem;
 }
 
 #vk:hover{
@@ -4986,6 +4999,11 @@ img{
   top:0;
   padding:+10%;
   transition: all .1s ease-in-out;
+}
+
+#monte, #agora{
+  color: rgb(219, 223, 226);
+  
 }
 
 

@@ -1,6 +1,10 @@
 
 //aditional functions configs
 
+function load(){
+  document.getElementById("square").style.backgroundColor="black"
+}
+
 function labelclick(){
   setTimeout(show, 1500)
   function show(){
@@ -17,7 +21,11 @@ function labelclick1(){
   
 }}
 
-
+function cliq(){
+  //document.getElementById("square").id="quadrado"
+  document.getElementById("header").id="cabecario"
+  document.getElementById("project-logo1").id="projeto-logo1"
+}
 
 function input0focus(){
   var input0value=document.getElementsByTagName("input")[0].value=""

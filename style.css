@@ -4,11 +4,13 @@
 
 
 body{
-  text-align: center;
+  background-color: rgb(227, 171, 253);
   font-family:Montserrat;
   font-weight: normal;
   font-size: medium;
   margin-bottom: 1em;
+  width: 1325px;
+  overflow: auto;
 }
 #videos{
   display: none;
@@ -197,7 +199,7 @@ select option {
 }
 
 input:focus, select:focus, textarea:focus {
-  background: #FFC;
+  background: rgb(255, 253, 247);
 }
 
 .botao {
@@ -205,7 +207,7 @@ input:focus, select:focus, textarea:focus {
   font-size: 15pt;
   width: auto;
   height: auto;
-  background: rgb(141, 141, 141);
+  background: rgb(182, 182, 184);
   border: 0;
   margin-bottom: 1em;
   color: #FFF;
@@ -267,3 +269,65 @@ textarea{
   width: 1000px;
   height: 300px;
 }
+
+main{
+  padding-top: 125px;
+  text-align: center;
+ }
+
+#header{
+  background-image: linear-gradient(rgb(212, 72, 255), rgb(227, 171, 253));
+  left: 0px;
+  right: 0px;
+}
+
+#project-logo1{
+  color: rgb(40, 15, 54);
+  font-family: "lemon brownies";
+  font-size: 3rem;
+}
+
+
+/*DEPOIS*/
+
+#cabecario{
+  position: fixed;
+  text-align: center;
+  height: 25px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  padding-top: 10px;
+}
+
+#projeto-logo1{
+  
+}
+
+
+/*ex-nav:
+  position: fixed;
+  text-align: center;
+  height: 25px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  padding-top: 10px;
+  */
+
+  #square{
+    margin-top: 150px;
+    margin-left: 100px;
+    background-color: royalblue;
+    width: 300px;
+    height: 300px;
+    overflow: scroll;
+  }
+
+  #quadrado{
+    background-color: seagreen;
+    width: 300px;
+    height: 300px;
+  }
